@@ -1,0 +1,114 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: $color__border-button;
+	border-radius: 3px;
+	background: $color__background-button;
+	color: rgba(0, 0, 0, 0.8);
+	line-height: 1;
+	padding: 0.6em 1em 0.4em;
+
+	&:hover {
+		border-color: $color__border-button-hover;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color__border-button-focus;
+	}
+}
+
+.btnGreen {
+	button{
+		background-color: rgba(22, 147, 105, 1)  !important;
+		color: white !important;
+		padding-left: 60px !important;
+		padding-right: 60px !important;
+
+	}
+}
+
+.btnInvest{
+	button{
+		background-color: #000000!important;
+		color: white !important;
+		padding-left: 60px !important;
+		padding-right: 60px !important;
+	}
+}
+.btnLouer{
+	button{
+		background-color: #FFFFFF!important;
+		color: #000000 !important;
+		padding-left: 60px !important;
+		padding-right: 60px !important;
+	}
+}
+
+@media (max-width: 900px) {
+	.btnGreen {
+		button{
+			color: white !important;
+			padding-left: 10px !important;
+			padding-right: 10px !important;
+
+		}
+	}
+	.btnLouer {
+		button{
+			padding-left: 10px !important;
+			padding-right: 10px !important;
+
+		}
+	}
+	.btnInvest {
+		button{
+			padding-left: 10px !important;
+			padding-right: 10px !important;
+
+		}
+	}
+
+	h1{
+		font-size: 2rem;
+	}
+
+	.CardCenter{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.besoin{
+		.vc_column-inner{
+			justify-content: space-evenly;
+			align-items: center;
+			display: flex;
+			flex-wrap: wrap;
+		}
+	}
+	.PicturePersona{
+		display: none;
+	}
+
+	.réalisation{
+		padding: 0 !important;
+		margin: 0 !important;
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+.card{
+	.wpb_wrapper{
+		justify-content: center !important;
+		align-items: center !important;
+		display: flex !important;
+		flex-direction: column !important;
+	}
+
+}
+
+
+

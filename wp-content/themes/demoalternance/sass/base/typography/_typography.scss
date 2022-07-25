@@ -1,0 +1,26 @@
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: $color__text-main;
+	font-family: $font__main;
+	font-size: 1rem;
+	line-height: $font__line-height-body;
+}
+
+@import "headings";
+@import "copy";
+
+
+@font-face {
+	font-family: "PlayFaire";
+	@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+}
+
+
+@font-face {
+	font-family: "Outfit";
+	@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Outfit:wght@300&display=swap');
+}

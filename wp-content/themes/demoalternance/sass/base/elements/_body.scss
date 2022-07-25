@@ -1,0 +1,144 @@
+body {
+	background: $color__background-body; // Fallback for when there is no custom background color defined.
+	overflow-x: hidden;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+.entry-title{
+	display: none !important;
+}
+.wp-Alternance{
+	margin-top: 2%;
+	margin-left: 25%;
+	display: flex;
+	justify-content: center;
+	a{
+		text-decoration:none;
+		color: black;
+		font-family: Outfit;
+		font-size: 23px;
+	}
+	li{
+		margin-left: 2rem ;
+		list-style-type: none;
+	}
+
+}
+
+
+.AccueilNav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	img{
+		margin-top: 25px;
+		height: 40px;
+		justify-content: center;
+	}
+}
+
+
+@media (max-width: 900px) {
+	.wp-Alternance{
+		a {
+			display: none !important;
+			li {
+				display: none !important;
+			}
+		}
+
+	}
+	footer{
+		.SFooter{
+			display: flex;
+			flex-direction: column;
+			margin-left: 20px;
+		}
+	}
+
+	.vc_single_image-img attachment-large{
+		height: 40px;
+		width: 50px;
+	}
+
+}
+h1{
+	font-size: 4rem ;
+	font-family: PlayFaire;
+}
+
+h3{
+	font-size: 2rem ;
+	font-family: PlayFaire;
+}
+
+p{
+	font-family: Outfit;
+}
+
+
+footer{
+	background-color: rgba(250, 246, 242, 1);
+	.SFooter{
+		display: flex;
+		justify-content: space-evenly;
+		.notreSite{
+			flex-direction: column;
+			display: flex;
+			a{
+				color:black;
+				font-family: Outfit;
+				font-size: 18px;
+			}
+			h5{
+				font-family: PlayFaire;
+				font-size: 24px;
+			}
+		}
+		.légale{
+			flex-direction: column;
+			display: flex;
+			a{
+				font-family: Outfit;
+				color:black;
+				font-size: 18px;
+			}
+			h5{
+				font-family: PlayFaire;
+				font-size: 24px;
+			}
+		}
+		.social{
+			flex-direction: column;
+			display: flex;
+			a{
+				color:black;
+				font-family: Outfit;
+				font-size: 18px;
+			}
+			h5{
+				font-family: PlayFaire;
+				font-size: 24px;
+			}
+		}
+		.contact{
+			flex-direction: column;
+			display: flex;
+			a{
+				color:black;
+				font-family: Outfit;
+				font-size: 20px;
+			}
+			h5{
+				font-family: PlayFaire;
+				font-size: 24px;
+			}
+		}
+
+	}
+	h6{
+	 text-align: center;
+	}
+}
